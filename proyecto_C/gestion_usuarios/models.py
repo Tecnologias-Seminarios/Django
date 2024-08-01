@@ -6,12 +6,12 @@ from .base_models import Persona
 # Create your models here.
 class Usuario(Persona):
     usuario = models.CharField(max_length=50, unique=True)
-    contraseña = models.CharField(max_length=255)
+    contrasena = models.CharField(max_length=255)
 
 
     def save(self, *args, **kwargs):
         # Encriptar la contraseña antes de guardarla
-        self.contraseña = make_password(self.contraseña)
+        self.contrasena = make_password(self.contrasena)
         super(Usuario, self).save(*args, **kwargs)
 
 
