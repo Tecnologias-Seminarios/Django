@@ -43,4 +43,3 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.SUCCESS(f'Inscripción creada con éxito para {inscripcion["estudiante"].usuario}.'))
             else:
                 self.stdout.write(self.style.WARNING(f'Inscripción ya existente para {inscripcion["estudiante"].usuario} en el curso {inscripcion["curso"].nombre}.'))
-

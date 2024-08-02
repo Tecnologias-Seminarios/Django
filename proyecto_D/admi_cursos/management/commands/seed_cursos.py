@@ -26,5 +26,3 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.SUCCESS(f'Curso "{curso["nombre"]}" creado con éxito.'))
             else:
                 self.stdout.write(self.style.WARNING(f'Curso "{curso["nombre"]}" ya existe.'))
-
-
