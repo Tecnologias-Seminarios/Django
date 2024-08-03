@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'admi_cursos',
+    'rest_framework',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +72,16 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'proyecto_D.wsgi.application'
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend'
+    ],
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ),
+}
 
 
 # Database
