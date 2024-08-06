@@ -10,7 +10,7 @@
 ## Acerca de mí
 Hola que tal ! Bienvenido a mi REDMI. Conocido en el bajo mundo como "pollo" , Ingeniero de Software,Univesidad Autonoma de la Ciudad de México. Amante del GYM pero tambien de la comida grasosa.
 Si tienes alguna duda porfavor de contactarme a mis redes sociales o mi correo. Juntos podemos ser mejores ingenieros!
-## Proyecto: Creacion de un proyecto basico hasta mas compplejo en Django
+## Proyecto: Creacion de un proyecto basico hasta mas complejo en Django
 Proporcionar una guía detallada sobre cómo llevar a cabo un proyecto en Django desde 0 hasta uno mas complejo
 
 ### Tecnologías utilizadas
